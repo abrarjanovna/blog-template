@@ -1,8 +1,5 @@
-import Posts from "./components/Posts";
-import Header from "./pages/Header";
-import Main from "./pages/Main";
-import Post from "./components/Post";
-import Footer from "./pages/Footer";
+import { Post, Posts } from "./components";
+import { Footer, Header, Main } from "./pages";
 
 function App() {
   return (
@@ -10,8 +7,8 @@ function App() {
       <Header />
       <Main />
       <Posts />
-      <Post/>
-      <Footer/>
+      <Post />
+      <Footer />
     </div>
   );
 }
